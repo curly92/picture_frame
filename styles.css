@@ -1,0 +1,62 @@
+html {
+    height:100%;
+    background: linear-gradient(to bottom right, pink, rgb(21, 153, 230));
+}
+.thumbnails {
+    width:30%;
+    float: left;
+    margin:10px;
+    background:#fff;
+    padding:20px;
+    box-sizing:border-box;
+}
+.thumbnails img {
+    width:100%;
+    height:auto;
+}
+
+input {
+    background-color: #e0afff;
+    
+    float: right;
+    padding: 10 px;
+    display: inline-block;
+
+    cursor: pointer;
+}
+
+input[type="submit"]{
+    padding: 5px;
+}
+
+ul {
+    
+    margin:  0;
+    text-align: center;
+    font-size: 40px;
+    padding: 0;
+    list-style-type: none;		
+}
+
+ul li {
+    display: inline;
+    padding: 20px;
+    
+}
+
+ul li:hover {
+    
+    cursor: pointer;
+}
+
+
+h1 {
+    display: inline-block;
+    text-display: center;
+    font-size: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
